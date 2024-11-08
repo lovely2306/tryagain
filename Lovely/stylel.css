@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+#yes {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.yadi{
+    height: 300px;
+    width: 300px;
+    float: right;
+    margin-top: -340px;
+    margin-right: 25px;
+}
+
+
+.header-container {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 50px 30px;
+}
+
+.header-content h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.header-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.header-buttons {
+    justify-content: center;
+    
+}
+
+.header-buttons button {
+    background-color: white;
+    color: #4caf50;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.header-buttons button:hover {
+    background-color: #388e3c;
+    color: white;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.info-card {
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+.info-card h3 {
+    font-size: 30px;
+    margin-top: 5px;
+    color: #4caf50;
+}
+
+.info-card p {
+    font-size: 1em;
+    color: #555;
+}
+
+.info-card img {
+    height: 130px;
+    width: 130px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    display: inline-block;
+    border: 5px solid green;
+}
+
+
+.key:hover{
+    content: url(./Images/badlol.jpg);
+}
+
+.water{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #4caf50;
+    text-decoration: none;
+}
+.water:hover {
+    color: green;
+}
+
+.about-section {
+    display: flex;
+    justify-content: center;
+
+    padding: 30px;
+    background-color: #e6f7ec;
+    text-align: center;
+}
+
+.about-card {
+    max-width: 300px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #38a169;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.clarity-title {
+    color: #31511E;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.engagement-title {
+    color: #31511E;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.relevance-title {
+    color: #31511E;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about-card p {
+    color: #4a5568;
+    font-size: 1em;
+}
+
+.earth {
+    text-align: center;
+    padding: 40px;
+    background-color: #e6f7ec;
+}
+
+.title {
+    font-size: 2em;
+    color: #2f855a;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 20px;
+    color: #4a5568;
+    margin-bottom: 20px;
+}
+
+.contact h4 {
+    font-size: 1.5em;
+    color: #2c7a7b;
+    margin-bottom: 10px;
+}
+
+.link {
+    font-size: 1.1em;
+    color: #2f855a;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.link:hover {
+    color: #38a169;
+}
